@@ -171,19 +171,3 @@ Projets impactant la société camerounaise
 🔗 LinkedIn : https://linkedin.com/in/tonprofil
 
 🌍 GitHub : https://github.com/tonusername
-
-⚡ Citation
-
-“Le logiciel n’est pas seulement du code. C’est une solution à un problème réel.”
-
-Si tu veux, je peux maintenant te faire :
-
-✅ Une version encore plus premium style développeur international
-
-✅ Une version plus orientée startup
-
-✅ Une version ultra technique pour recruteurs
-
-✅ Une version en anglais
-
-✅ Une bannière professionnelle pour ton GitHub
