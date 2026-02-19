@@ -1,173 +1,203 @@
-👨🏽‍💻 Issa Hassan
-Software Engineering Student | Full-Stack Developer | Problem Solver
-
-🚀 Passionné par le développement logiciel et l’innovation technologique au service des besoins réels au Cameroun.
-
-🧠 À propos de moi
-
-Je suis étudiant en Génie Logiciel, spécialisé dans la conception et le développement de solutions numériques innovantes répondant aux problématiques locales (logistique, éducation, gestion administrative, marchés publics).
-
-💡 J’aime transformer des idées en applications concrètes, structurées et bien modélisées (Merise, UML, POO).
-
-📍 Basé au Cameroun
-🎯 Objectif : Construire des solutions numériques utiles, performantes et évolutives pour l’Afrique.
-
-🛠️ Compétences Techniques
-
-Langages :
-
-HTML5 / CSS3
-
-JavaScript
-
-PHP
-
-Java
-
-SQL (MySQL)
-
-Frameworks & Outils :
-
-Ionic / Angular
-
-Android Studio
-
-Git & GitHub
-
-XAMPP
-
-VMware
-
-Méthodologies :
-
-Analyse Merise
-
-Modélisation UML
-
-Programmation Orientée Objet (POO)
-
-Conception Base de Données
-
-IHM (Interface Homme-Machine)
-
-📂 Mes Projets
-🚚 1️⃣ Plateforme de Gestion Logistique – Raha Transport
-
-🔗 Repo : https://github.com/tonusername/raha-transport
-
-📌 Description
-
-Conception et réalisation d’une plateforme web de gestion logistique pour l’entreprise Raha Transport.
-
-🎯 Objectifs
-
-Digitaliser une entreprise de transit non informatisée
-
-Gérer les expéditions
-
-Suivre les marchandises
-
-Optimiser les opérations logistiques
-
-🧩 Technologies
-
-PHP | MySQL | HTML | CSS | JavaScript
-
-📊 Points forts
-
-✔ Analyse complète avec Merise
-✔ Modèle Conceptuel de Données (MCD)
-✔ Interface de gestion intuitive
-✔ Gestion des clients, cargaisons et livraisons
-
-🎓 2️⃣ Formulaire d’Inscription en Ligne – GeScope
-
-🔗 Repo : https://github.com/tonusername/gescope-inscription
-
-📌 Description
-
-Développement d’un système d’inscription en ligne pour étudiants pour l’institution GeScope.
-
-🌐 Versions
-
-Version Web (PHP/MySQL)
-
-Version Mobile (Ionic/Angular ou Android)
-
-🎯 Fonctionnalités
-
-Création de compte étudiant
-
-Upload des documents
-
-Validation administrative
-
-Gestion des candidatures
-
-💡 Valeur ajoutée
-
-✔ Digitalisation du processus d’inscription
-✔ Réduction des erreurs administratives
-✔ Gain de temps pour l’établissement
-
-🏗️ 3️⃣ Projet Tutoré : Marché Moderne – Douala 4ème
-
-🔗 Repo : https://github.com/tonusername/marche-moderne
-
-📌 Description
-
-Projet de planification architecturale et d’aménagement fonctionnel d’un marché moderne à Bonabéri (Douala 4ème).
-
-🎯 Objectif
-
-Proposer une organisation moderne, structurée et fonctionnelle d’un marché urbain.
-
-📊 Contenu
-
-Étude de faisabilité
-
-Planification spatiale
-
-Organisation des stands
-
-Approche innovante adaptée au contexte camerounais
-
-💻 4️⃣ Gestion Carte (Projet Académique)
-
-🔗 Repo : https://github.com/tonusername/gestion-carte
-
-📌 Description
-
-Projet académique complet incluant :
-
-Analyse Merise
-
-Base de données
-
-POO
-
-IHM
-
-🎯 Compétences démontrées
-
-✔ Conception structurée
-✔ Implémentation orientée objet
-✔ Séparation logique métier / interface
-
-📈 Ce que je recherche
-
-Opportunités de stage en développement logiciel
-
-Collaboration sur des projets innovants
-
-Contribution Open Source
-
-Projets impactant la société camerounaise
-
-📫 Me Contacter
-
-📧 Email : tonemail@email.com
-
-🔗 LinkedIn : https://linkedin.com/in/tonprofil
-
-🌍 GitHub : https://github.com/tonusername
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Issa Hassan | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 60px 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, #3b82f6, #06b6d4);
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        header p {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: white;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0f172a;
+            color: white;
+            border: 2px solid white;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            color: #38bdf8;
+        }
+
+        .about p {
+            text-align: center;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: #3b82f6;
+        }
+
+        .project-card {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            background: #334155;
+            transform: scale(1.03);
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <h1>Issa Hassan</h1>
+        <p>Étudiante en génie logiciel | Développeuse Full-Stack</p>
+        <a href="#contact" class="btn">Me Contacter</a>
+    </div>
+</header>
+
+<section class="about">
+    <div class="container">
+        <h2>À propos de moi</h2>
+        <p>
+            Passionné par le développement logiciel et l'innovation technologique au service des besoins réels au Cameroun.
+            Je transforme des idées en applications concrètes et structurées (Merise, UML, POO).
+        </p>
+    </div>
+</section>
+
+<section class="skills">
+    <div class="container">
+        <h2>Compétences Techniques</h2>
+        <div class="skill-grid">
+            <div class="card">HTML5 / CSS3</div>
+            <div class="card">JavaScript</div>
+            <div class="card">PHP</div>
+            <div class="card">Java</div>
+            <div class="card">MySQL</div>
+            <div class="card">Angular / Ionic</div>
+            <div class="card">Android Studio</div>
+            <div class="card">Git & GitHub</div>
+        </div>
+    </div>
+</section>
+
+<section class="projects">
+    <div class="container">
+        <h2>Mes Projets</h2>
+
+        <div class="project-card">
+            <h3>🚚 Raha Transport</h3>
+            <p>Plateforme de gestion logistique en PHP/MySQL.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>🎓 GeScope</h3>
+            <p>Système d'inscription en ligne (Web & Mobile).</p>
+        </div>
+
+        <div class="project-card">
+            <h3>🏗️ Marché Moderne</h3>
+            <p>Projet d’aménagement fonctionnel d’un marché urbain.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>💳 Gestion Carte</h3>
+            <p>Projet académique avec analyse Merise & IHM.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Email : issahassankoroma2@email.com</p>
+        <p>LinkedIn : linkedin.com/in/tonprofil</p>
+        <p>GitHub : github.com/tonusername</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Issa Hassan | Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
